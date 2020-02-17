@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import SearchBar from "./components/SearchBar";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <SearchBar></SearchBar>
+        <HomePage></HomePage>
     </div>
   );
 }

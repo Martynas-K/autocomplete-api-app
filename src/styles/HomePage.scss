@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/HomePage/sky-background.jpg");
+  background-position: center;
+  background-size: cover;
+  &__container {
+    margin: 0 30px;
+    padding-top: 2px;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    background-color: #fafafc;
+  }
+}
+
+@media only screen and (max-width: 424px) {
+  .home__container {
+    margin: 0 15px;
+  }
+}
